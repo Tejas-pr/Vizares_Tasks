@@ -12,22 +12,19 @@ This project is a simple backend API built using Express.js that handles basic C
    ```
 2. Navigate to the project directory
    ```bash
-   git clone <repository-url>
-   ```
-3. Navigate to the project directory
-   ```bash
    npm install
    ```
-4. Install dependencies
+3. Install dependencies
    ```bash
    npm start
    ```
    The server will start on http://localhost:3000/v1/ (don't forget /v1/).
 
 ### Endpoints
+
 Use Postman or a similar tool to send HTTP requests to the endpoints.Ensure the Content-Type is set to application/json for POST and DELETE requests.
 
-  1.Create a Task
+1.Create a Task
 
 - Endpoint: POST /add-task
 - Description: Adds a new task to the in-memory array.
@@ -46,7 +43,8 @@ Use Postman or a similar tool to send HTTP requests to the endpoints.Ensure the 
     "age": 30
   }
   ```
-![alt text](image.png)
+  ![alt text](image.png)
+
 2. Get All Tasks
 
 - Endpoint: GET /all-task
@@ -66,7 +64,8 @@ Use Postman or a similar tool to send HTTP requests to the endpoints.Ensure the 
       }
   ]
   ```
-![alt text](image-1.png)
+  ![alt text](image-1.png)
+
 3. Update a Task
 
 - Endpoint: POST /update
@@ -87,7 +86,8 @@ Use Postman or a similar tool to send HTTP requests to the endpoints.Ensure the 
       "age": 31
   }
   ```
-![alt text](image-2.png)
+  ![alt text](image-2.png)
+
 4. Delete a Task
 
 - Endpoint: DELETE /delete-task
@@ -102,6 +102,8 @@ Use Postman or a similar tool to send HTTP requests to the endpoints.Ensure the 
   ```bash
   Deleted successfully
   ```
-![alt text](image-3.png)
+  ![alt text](image-3.png)
+
 #
+
 Thank You! 👋
